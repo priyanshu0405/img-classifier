@@ -12,7 +12,7 @@ plt.imshow(new_image)
 
 #resizing the input image
 from skimage.transform import resize
-resized_image = resize(new_image, (20,80,3))
+resized_image = resize(new_image, (60,100,3))
 plt.imshow(resized_image)
 
 #making an input-output model using already created image classification model
