@@ -14,9 +14,7 @@ new_image = new_image/255
 #adding noise to the image 
 import skimage
 plt.figure(figsize=(18,24))
-r=4
-c=2
-plt.subplot(r,c,1)
+plt.subplot(4,2,1)
 
 #other type of noises can also be added by changing mode to "localvar", "poisson", "salt", "pepper", "s&p", "speckle"
 
